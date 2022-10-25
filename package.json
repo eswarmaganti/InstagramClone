@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/eswarmaganti/InstagramClone/issues"
   },
-  "homepage": "https://github.com/eswarmaganti/InstagramClone#readme"
+  "homepage": "https://github.com/eswarmaganti/InstagramClone#readme",
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.4.0",
+    "@react-navigation/native-stack": "^6.9.1"
+  }
 }
