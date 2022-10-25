@@ -1,0 +1,22 @@
+{
+  "name": "instagramclone",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Instagram App clone using ReactNative, Node.js, Express.js and mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./backend/server",
+    "server": "node ./backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eswarmaganti/InstagramClone.git"
+  },
+  "author": "Eswar Krishna Maganti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eswarmaganti/InstagramClone/issues"
+  },
+  "homepage": "https://github.com/eswarmaganti/InstagramClone#readme"
+}
