@@ -1,10 +1,14 @@
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
 import React from "react";
-
+import Header from "../../components/Header";
+import Stories from "../../components/Stories";
 const FeedScreen = () => {
   return (
     <View style={{ backgroundColor: "#fff", flex: 1 }}>
-      <Text>FeedScreen</Text>
+      <Header />
+      <ScrollView>
+        <Stories />
+      </ScrollView>
     </View>
   );
 };
